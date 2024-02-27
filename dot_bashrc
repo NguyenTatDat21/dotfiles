@@ -140,3 +140,6 @@ export R_LIBS=${R_LIBS_USER}:${R_LIBS}
 # blesh
 source ~/.local/share/blesh/ble.sh
 
+# zoxide
+eval "$(zoxide init -cmd cd bash)"
+
