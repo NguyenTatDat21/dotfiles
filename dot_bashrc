@@ -136,3 +136,7 @@ export PATH=${IRACE_HOME}/bin/:$PATH
 # Tell R where to find R_LIBS_USER
 # Use the following line only if local installation was forced
 export R_LIBS=${R_LIBS_USER}:${R_LIBS}
+
+# blesh
+source ~/.local/share/blesh/ble.sh
+
