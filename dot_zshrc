@@ -66,13 +66,14 @@ ZSH_THEME=""
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 export ZOXIDE_CMD_OVERRIDE="cd"
+export PATH=${HOME}/bin/:$PATH
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git zsh-autosuggestions zsh-syntax-highlighting zoxide fzf starship aliases vscode eza)
+plugins=(git zsh-autosuggestions zsh-syntax-highlighting zoxide fzf starship aliases vscode eza cp)
 
 source $ZSH/oh-my-zsh.sh
 
