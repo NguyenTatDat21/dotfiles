@@ -66,7 +66,7 @@ ZSH_THEME=""
 # ZSH_CUSTOM=/path/to/new-custom-folder
 
 export ZOXIDE_CMD_OVERRIDE="cd"
-export PATH=${HOME}/bin/:$PATH
+export PATH=${HOME}/bin/:${HOME}/.local/bin:$PATH
 
 # Which plugins would you like to load?
 # Standard plugins can be found in $ZSH/plugins/
