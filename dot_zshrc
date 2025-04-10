@@ -106,7 +106,7 @@ alias fd=fdfind
 
 # IRACE
 # Replace <IRACE_HOME> with the irace installation path
-export IRACE_HOME=${HOME}/R/x86_64-pc-linux-gnu-library/4.3/irace
+export IRACE_HOME=${HOME}/R/x86_64-pc-linux-gnu-library/4.2/irace
 export PATH=${IRACE_HOME}/bin/:$PATH
 # Tell R where to find R_LIBS_USER
 # Use the following line only if local installation was forced
